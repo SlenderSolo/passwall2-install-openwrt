@@ -15,7 +15,7 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 1.  Visit the [Passwall2 Releases Page](https://github.com/xiaorouji/openwrt-passwall2/releases).
 2.  Download the following files:
     *   `luci-app-passwall2_all.ipk`
-    *   The `passwall_packages_ipk` zip file matching your **architecture** (found in Step 1).
+    *   `passwall_packages_ipk` zip file matching your **architecture** (found in Step 1).
 3.  **Unzip** the `passwall_packages` archive on your computer. You will need the files inside it for Step 4.
 
 <img src="https://github.com/user-attachments/assets/9d93c3cf-a0c4-4d2f-8e69-93f449627a72" />
@@ -27,7 +27,7 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 > [!WARNING]
 > This step involves removing `dnsmasq` and deleting DHCP configurations. This may temporarily disrupt your network or require you to reconfigure DHCP settings later. Proceed with caution.
 
-1.  **Connect to the router** via SSH:
+1.  **Connect to the router** via SSH using cmd:
     ```sh
     ssh root@192.168.1.1
     ```
@@ -46,7 +46,7 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
     rm -rf /etc/config/dhcp
     ```
 4.  **Install dependencies**:
-    Install the full version of dnsmasq and required kernel modules for NFTables:
+    Install the full version of dnsmasq and required kernel modules:
     ```sh
     opkg install dnsmasq-full kmod-nft-socket kmod-nft-tproxy kmod-nft-nat
     ```
@@ -55,13 +55,11 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 
 ### Phase 3: Package Installation (Web Interface)
 
-Now you will install the actual Passwall components using the Web Interface.
-
 #### Step 1: Install Core Components
 1.  Go to **System → Software**.
 2.  Click the **Upload Package** button.
 3.  Locate the folder where you unzipped the `passwall_packages` archive.
-4.  Upload and install the following packages one by one (order generally doesn't matter, but Core first is recommended):
+4.  Upload and install the following packages one by one (Xray-core first is recommended):
     *   `xray-core`
     *   `v2ray-geoip`
     *   `v2ray-geosite`
