@@ -8,7 +8,6 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 1.  Log in to the Web Interface.
 2.  Navigate to **System → Software**.
 3.  Click **Update lists** to refresh the package database.
-4.  Look at the installed packages or the system status to identify your architecture.
 
 <img src="https://github.com/user-attachments/assets/48e57145-81df-47d1-b0bc-f3ddc07059b7" />
 
