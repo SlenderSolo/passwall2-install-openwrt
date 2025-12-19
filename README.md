@@ -8,6 +8,7 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 1.  Log in to the Web Interface.
 2.  Navigate to **System → Software**.
 3.  Click **Update lists** to refresh the package database.
+4.  Look for your architecture in the download links after `/packages/` (e.g. aarch64_cortex-a53)
 
 <img src="https://github.com/user-attachments/assets/48e57145-81df-47d1-b0bc-f3ddc07059b7" />
 
@@ -69,5 +70,5 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 
 #### Step 2: Install the Interface (LuCI)
 1.  Click **Upload Package** again.
-2.  Select the `luci-app-passwall2_all.ipk` file you downloaded earlier.
-3.  Install it.
+2.  Select the `luci-app-passwall2_all.ipk` file you downloaded earlier and install it.
+3.  Relogin to the web interface or press `Ctrl + F5` to refresh the cache, **Passwall2** will then appear under the **Services** tab.
