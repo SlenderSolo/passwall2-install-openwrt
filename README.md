@@ -64,8 +64,9 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
     *   `xray-core`
     *   `v2ray-geoip`
     *   `v2ray-geosite`
-    *   `tcping`
     *   `geoview`
+    *   `chinadns-ng`
+    *   `tcping`
     *   *(Optional)* Install any other packages from the folder if you specifically need them.
 
 #### Step 2: Install the Interface (LuCI)
