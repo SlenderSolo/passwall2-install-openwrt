@@ -67,6 +67,8 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
     *   `geoview`
     *   `chinadns-ng`
     *   `tcping`
+    *   `sing-box (Optional)`
+    *   `hysteria (Optional)`
     *   *(Optional)* Install any other packages from the folder if you specifically need them.
 
 #### Step 2: Install the Interface (LuCI)
