@@ -75,3 +75,4 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 1.  Click **Upload Package** again.
 2.  Select the `luci-app-passwall2_all.ipk` file you downloaded earlier and install it.
 3.  Relogin to the web interface or press `Ctrl + F5` to refresh the cache, **Passwall2** will then appear under the **Services** tab.
+4.  `REBOOT` router
