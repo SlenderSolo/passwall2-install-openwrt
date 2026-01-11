@@ -49,7 +49,7 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 4.  **Install dependencies**:
     Install the full version of dnsmasq and required kernel modules:
     ```sh
-    opkg install dnsmasq-full kmod-nft-socket kmod-nft-tproxy kmod-nft-nat ip6tables-mod-nat
+    opkg install dnsmasq-full kmod-nft-socket kmod-nft-tproxy kmod-nft-nat
     ```
 
 ---
