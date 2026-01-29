@@ -13,7 +13,7 @@ Before downloading files, you need to know your router's architecture (e.g., `aa
 <img src="https://github.com/user-attachments/assets/48e57145-81df-47d1-b0bc-f3ddc07059b7" />
 
 #### Step 2: Download Packages
-1.  Visit the [Passwall2 Releases Page](https://github.com/xiaorouji/openwrt-passwall2/releases).
+1.  Visit the [Passwall2 Releases Page](https://github.com/Openwrt-Passwall/openwrt-passwall2/releases/tag/26.1.1-1).
 2.  Download the following files:
     *   `luci-app-passwall2_all.ipk`
     *   `passwall_packages_ipk` zip file matching your **architecture** (found in Step 1).
