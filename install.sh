@@ -82,8 +82,8 @@ install_dep_from_zip() {
             opkg install "$ipk" --force-overwrite
             rm -f "$ipk"
             if [ "$pkg" = "xray-core" ]; then
-                msg "Waiting 3 seconds..."
-                sleep 3
+                msg "Waiting 2 seconds..."
+                sleep 2
             fi
         else
             warn "Extracted $pkg but ipk file not found."
